@@ -19,6 +19,9 @@ This is the endpoint https://face-guardian.onrender.com/compare-images
 
 ![image](https://github.com/davoweb3/chainlinkdavid/assets/105182325/844b7d89-a6a0-4482-80e7-4e006b1accad)
 
+#Deployed Smart Contracts using Remix 
+![image](https://github.com/davoweb3/chainlinkdavid/assets/105182325/895dc71c-95fd-4afb-bf81-90af03cac3f8)
+
 
 #It requieres 2 smart contracts ( all in Sepolia Network)
 Fetcher ( Fuction) 0xDEC109458e6Bc0162D6D4Dd09D4F3Ac6E0c590aa  
