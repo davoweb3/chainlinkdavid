@@ -1,0 +1,407 @@
+{
+	"info": {
+		"_postman_id": "aeb0006a-b95c-4868-bca1-edbc7431c9ce",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12831157"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "minteo",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"wallet\": \"0x29Ce6b27C4d6Cd27EBb13836DD60a45f84416f94\"}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8081/callalchemy",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8081",
+					"path": [
+						"callalchemy"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "minteo Copy",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"wallet\": \"0x29Ce6b27C4d6Cd27EBb13836DD60a45f84416f94\"}"
+				},
+				"url": {
+					"raw": "https://middleware-kq5t.onrender.com/callalchemy",
+					"protocol": "https",
+					"host": [
+						"middleware-kq5t",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"callalchemy"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pasar datos de botellas",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"wallet\": \"0x29Ce6b27C4d6Cd27EBb13836DD60a45f84416f94\"}"
+				},
+				"url": {
+					"raw": "https://8082-davotrade-web3middlewar-cs777lvnp0l.ws-us106.gitpod.io/callalchemy",
+					"protocol": "https",
+					"host": [
+						"8082-davotrade-web3middlewar-cs777lvnp0l",
+						"ws-us106",
+						"gitpod",
+						"io"
+					],
+					"path": [
+						"callalchemy"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Minteador",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://minteador.onrender.com/triggerScript",
+					"protocol": "https",
+					"host": [
+						"minteador",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"triggerScript"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Criptoapi asd",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://min-api.cryptocompare.com/data/pricemultifull?fsyms=ETH&tsyms=USD",
+					"protocol": "https",
+					"host": [
+						"min-api",
+						"cryptocompare",
+						"com"
+					],
+					"path": [
+						"data",
+						"pricemultifull"
+					],
+					"query": [
+						{
+							"key": "fsyms",
+							"value": "ETH"
+						},
+						{
+							"key": "tsyms",
+							"value": "USD"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "keyNHWPWjd1lTE32J",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.airtable.com/v0/{products}/{Name}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"airtable",
+						"com"
+					],
+					"path": [
+						"v0",
+						"{products}",
+						"{Name}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Onchain weather",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"latitude\":18.1034915,\"longitude\":-66.8738527,\"city\":\"Vegas\",\"country\":\"US\"}\r\n"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/onchain-weather",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"onchain-weather"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Open Meteo directo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.open-meteo.com/v1/forecast?latitude=31.1060122&longitude=-90.1111988&current=temperature_2m",
+					"protocol": "https",
+					"host": [
+						"api",
+						"open-meteo",
+						"com"
+					],
+					"path": [
+						"v1",
+						"forecast"
+					],
+					"query": [
+						{
+							"key": "latitude",
+							"value": "31.1060122"
+						},
+						{
+							"key": "longitude",
+							"value": "-90.1111988"
+						},
+						{
+							"key": "current",
+							"value": "temperature_2m"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ask products json sencillo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://formatoanterior.onrender.com/get_data?id=7861024622905",
+					"protocol": "https",
+					"host": [
+						"formatoanterior",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"get_data"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "7861024622905"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "object",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiZTBlZTU0NDYtOGU0Yi00NzI3LTg3NzItZTY1ZDQzNTQ2ZGQ0IiwidHlwZSI6ImFwaV90b2tlbiJ9.QObndeYUG_LTxWDs7WL5k214S-e9w9rXx28zNZ5i_pA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"fileUrl\": \"https://media.lamota.org/cannabis_smartpot_540x330.jpg\"\r\n}\r\n"
+				},
+				"url": {
+					"raw": "http://localhost:3000/object-detection",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"object-detection"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "face api",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					},
+					{
+						"key": "authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiZTBlZTU0NDYtOGU0Yi00NzI3LTg3NzItZTY1ZDQzNTQ2ZGQ0IiwidHlwZSI6ImFwaV90b2tlbiJ9.QObndeYUG_LTxWDs7WL5k214S-e9w9rXx28zNZ5i_pA"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n{\n  \"response_as_dict\": true,\n  \"attributes_as_list\": false,\n  \"show_original_response\": false,\n  \"providers\": \"amazon\",\n  \"file1_url\": \"https://scontent.fuio24-1.fna.fbcdn.net/v/t39.30808-6/354265838_109380735530890_908216628702193106_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=Sp_3vtStRkIAX_2iJwC&_nc_ht=scontent.fuio24-1.fna&oh=00_AfDzMLPgXonXJPCZ5Z43wfiOf6rbfdfAxnv1Bk3DpNfhtg&oe=6578A01F\",\n  \"file2_url\": \"https://cloudfront-us-east-1.images.arcpublishing.com/eluniverso/BCXCY7ZYZ5EPFGBQ7MGDVVXNXM.jpg\"\n}\n"
+				},
+				"url": {
+					"raw": "https://api.edenai.run/v2/image/face_compare",
+					"protocol": "https",
+					"host": [
+						"api",
+						"edenai",
+						"run"
+					],
+					"path": [
+						"v2",
+						"image",
+						"face_compare"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Face Guardian",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image1",
+							"type": "file",
+							"src": []
+						},
+						{
+							"key": "image2",
+							"type": "file",
+							"src": []
+						}
+					]
+				},
+				"url": {
+					"raw": "https://face-guardian.onrender.com/compare-images",
+					"protocol": "https",
+					"host": [
+						"face-guardian",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"compare-images"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
